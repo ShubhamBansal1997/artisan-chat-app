@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "chat-app-backend"
+version = "0.1.0"
+description = ""
+authors = ["Shubham Bansal <shubhambansal17@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.112.0"
+fastapi-sqlalchemy = "^0.2.1"
+orjson = "^3.10.6"
+pydantic = "^2.8.2"
+python-dotenv = "^1.0.1"
+requests = "^2.32.3"
+sqlalchemy = "^2.0.31"
+uvicorn = "^0.30.5"
+black = "^24.8.0"
+alembic = "^1.13.2"
+pytest = "^8.3.2"
+unittest2 = "^1.1.0"
+loguru = "^0.7.2"
+tenacity = "^9.0.0"
+psycopg = "^3.2.1"
+pre-commit = "^3.8.0"
+openai = "^1.40.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
